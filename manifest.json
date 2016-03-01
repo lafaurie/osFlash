@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Flash",
+  "description": "Flash when a call is incoming.",
+  "author": "Jose Rolando Lafaurie Olivares",
+  "content_scripts": [{
+    "matches": ["app://system.gaiamobile.org/index.html"],
+    "css": [],
+    "js": ["app.js"]
+  }],
+  "icons": {
+    "128": "/icons/icon128.png"
+  }
+}
