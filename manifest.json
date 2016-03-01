@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "version": "1.0",
-  "name": "Flash",
+  "name": "osFlash",
   "description": "Flash when a call is incoming.",
   "author": "Jose Rolando Lafaurie Olivares",
   "content_scripts": [{

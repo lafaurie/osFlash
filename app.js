@@ -83,7 +83,7 @@
 
     navigator.mozApps.mgmt.addEventListener('enabledstatechange', function (event) {
         var app = event.application;
-        if (app.manifest.name === 'Flash') {
+        if (app.manifest.name === 'osFlash') {
             var wasEnabled = app.enabled;
             // do something with this information
             if (wasEnabled === true) {
